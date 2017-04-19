@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+textarea { 
+  font-size: 22px;
+  width: 100%;
+	height: 100px;
+  resize: none;
+}
+
+body{
+    background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+
+.bob {
+/*     width: 100px; */
+    position: relative;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.bob:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+.center {
+    width:300px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-100px 0 0 -150px;
+}	
+
+.spread{
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.spread:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+#present {
+  position:absolute;
+  bottom: 0;
+  left:5%;
+}
+
+#past {
+  position:absolute;
+  bottom: 0; /*[wherever you want it]*/
+  left:25%;
+}
+
+#future {
+  position:absolute;
+  bottom: 0; /*[wherever you want it]*/
+  left:45%;
+}
+
+#reason {
+    position:absolute;
+  bottom: 0; /*[wherever you want it]*/
+  left:65%;
+}
+
+#potential {
+    position:absolute;
+  bottom: 0; /*[wherever you want it]*/
+  left:85%;
+}
